@@ -18,6 +18,6 @@ export default class Concessionaria implements ConcessionariaInterface {
 		return this.listaDeCarros
 	}
 	public fornecerHorariosDeFuncionamento() : string{
-		return ''
+		return 'Funcionamento: De segunda a sexta das 8 as 18'
 	}
 }

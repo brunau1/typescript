@@ -38,3 +38,5 @@ let moto = new Moto()
 moto.acelerar()
 
 console.log(moto)
+
+console.log(concessionaria.fornecerHorariosDeFuncionamento())

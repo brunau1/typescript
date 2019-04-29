@@ -29,3 +29,4 @@ console.log(cliente.dizerCarroQueTem());
 var moto = new Moto_1.default();
 moto.acelerar();
 console.log(moto);
+console.log(concessionaria.fornecerHorariosDeFuncionamento());
