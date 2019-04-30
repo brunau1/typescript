@@ -1,4 +1,4 @@
-interface DaoInterface{
+export interface DaoInterface{
 
 	nomeTabela: string
 
@@ -6,5 +6,5 @@ interface DaoInterface{
 	update(object: any) : boolean
 	delete(id: number) : any
 	select(id: number) : any
-	selectAll() : Array<any>
+	selectAll() : [any]
 }
