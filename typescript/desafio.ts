@@ -19,7 +19,7 @@ console.log(correntista)*/
 
 type contaBancaria = {
     saldo : number,
-    depositar(valor : number) : void 
+    depositar : (valor : number) => void
 }
 
 type correntista = {
